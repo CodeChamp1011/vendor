@@ -584,10 +584,15 @@ export default function Index() {
             <img
               src="/images/avatar.png"
               className="w-[574px] md:h-[634px] h-[521px]"
+              alt="avatar"
             ></img>
             <div className="absolute flex flex-col bg-[#FFF] bottom-[-110px] right-[10px] w-[252px] h-[252px] border-2 rounded-[32px] shadow-md  ">
               <div className="flex flex-row rounded-[100000px] gap-x-5 mt-[10px] justify-center items-center">
-                <img src="/images/avatar1.png" className="w-[56px] h-[56px]" />
+                <img
+                  src="/images/avatar1.png"
+                  className="w-[56px] h-[56px]"
+                  alt="avatar1"
+                />
                 <div className="flex flex-col gap-y-1">
                   <span className="font-[500] text-[17px] font-sans text-[#0D0C22]">
                     Maya Ealey
@@ -726,6 +731,7 @@ export default function Index() {
                 <img
                   className="w-[40px] h-[40px]"
                   src="/images/user-avatar.png"
+                  alt="user-avatar"
                 ></img>
                 <span className="flex items-center text-[#0D0C22] font-[600] text-[20px] leading-[27px]">
                   Lee Munroe —
@@ -932,6 +938,7 @@ export default function Index() {
               <img
                 src="/images/brands.png"
                 className="w-[627px] h-[501px]"
+                alt="brands"
               ></img>
             </div>
           </div>
